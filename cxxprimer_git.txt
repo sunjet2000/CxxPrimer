@@ -1,0 +1,7 @@
+o "# CxxPrimer" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:sunjet2000/CxxPrimer.git
+git push -u origin main
