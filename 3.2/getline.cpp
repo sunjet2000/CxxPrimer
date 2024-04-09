@@ -11,3 +11,10 @@ int main()
 	}
 	return 0;
 }
+
+/* out::
+abc
+abc
+abc def 
+abc def
+*/

@@ -8,5 +8,15 @@ int main()
 	while(cin>>s)
 	{
 		cout << s << endl;
+		cout << sizeof(s) << endl;
 	}	
 }
+/* out 
+abc
+abc
+abc def
+abc
+def
+*/
+
+
