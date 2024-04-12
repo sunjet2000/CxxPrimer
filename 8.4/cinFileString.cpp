@@ -1,16 +1,19 @@
 #include <iostream>
-#include <string>
+#include <fstream>
 using namespace std;
 
 int main()
 {
 	string s;
-	cin >> s;
+	ifstream in("str1.txt");
+	in >> s;
 	cout << s << endl;
+	return 0;
 }
 /*
-a
-a
-a b
-a
+sss
+sss
+
+sss  ttt
+sss
 */
