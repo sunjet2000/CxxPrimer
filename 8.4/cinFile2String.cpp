@@ -8,7 +8,7 @@ int main()
 	string s1, s2, s3;
 	fstream in("str1.txt");
 	in >> s1 >> s2 >> s3;
-	cout << s1 << s2 << s3;	
+	cout << s1 << s2 << s3 << endl;	
 	return 0;
 }
 /*
@@ -22,4 +22,7 @@ sss
 ttt
 rrr
 ssstttrrr
+
+123 ttt rrr
+123tttrrr
 */
